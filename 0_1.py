@@ -5,4 +5,4 @@ def reverse_chara(t):
     rev=print(t[::-1])
     return rev
 
-reverse_chara("stressed")
+reverse_chara("stresse")
