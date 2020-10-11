@@ -4,5 +4,13 @@
 
 a="パタクトカシー"
 print(a[::2])
+words=[]
+for i in range(len(a)):
+    if i % 2 ==0:
+        words.append(a[i]) #This expression is Nonetype so words = words.append(a[i]) will return None.
+        
+words="".join(words)
+print(words)
+        
 
         
